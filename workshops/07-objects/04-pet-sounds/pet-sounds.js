@@ -38,3 +38,16 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+function petSounds(animalType, country) {
+
+for (let i = 0; i < animalNoises.length; i++) {
+  const currentAnimalObj = animalNoises[i];
+
+  const currentAnimalNoises = currentAnimalObj[animalType];
+
+  if (currentAnimalNoises) {
+    return `${animalType[0].toUpperCase()}${animalType.slice(1)}s in ${country} say ${currentAnimalNoises[country]}`;
+  }
+    
+  }
+}
