@@ -1,4 +1,4 @@
-### Call Them All
+xc### Call Them All
 
 Write a function `callThemAll`, that, given an object and a value, calls every
 method in the object, passing in the value as the argument with each call.
