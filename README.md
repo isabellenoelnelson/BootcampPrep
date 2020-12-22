@@ -1,2 +1,0 @@
-# BootcampPrep
-Bootcamp prep files
